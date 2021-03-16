@@ -27,8 +27,8 @@
           </option>
           <optionlist name="tabs">
             <listitems>
+              <listitem name="outline" value="true" group="linkleft" />
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="true" group="linkright" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
@@ -1368,10 +1368,11 @@
       <links>
         <slidelink slideid="_player.61nnraa4S0V" displaytext="GMPs_Module 1" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.61nnraa4S0V.6mBhDEbsX33" displaytext="START" expand="false" type="slide" />
-            <slidelink slideid="_player.61nnraa4S0V.6JyOvhWuDhr" displaytext="Before you enter the plant" expand="false" type="slide" />
-            <slidelink slideid="_player.61nnraa4S0V.5YHZyIbQhlC" displaytext="Dress code" expand="false" type="slide" />
-            <slidelink slideid="_player.61nnraa4S0V.6CeSH2UneZa" displaytext="Before you start working" expand="false" type="slide" />
+            <slidelink slideid="_player.61nnraa4S0V.5k1ubNFDLFn" displaytext="Start" expand="false" type="slide" />
+            <slidelink slideid="_player.61nnraa4S0V.5eWXxNZvOxM" displaytext="Before you enter the plant" expand="false" type="slide" />
+            <slidelink slideid="_player.61nnraa4S0V.60rK6vqnqgU" displaytext="Dress code" expand="false" type="slide" />
+            <slidelink slideid="_player.61nnraa4S0V.5mpChUURKLw" displaytext="Before you start working" expand="false" type="slide" />
+            <slidelink slideid="_player.61nnraa4S0V.5nluPiOueh0" displaytext="Attention!" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6A36ExecOfP" displaytext="Quiz Module 1" expand="true" type="slide">
