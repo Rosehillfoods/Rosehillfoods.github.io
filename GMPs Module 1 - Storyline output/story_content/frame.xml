@@ -48,8 +48,8 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="free" />
-          <option name="wraplistitems" value="false" />
+          <option name="flow" value="locked" />
+          <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
           <option name="autonumber" value="false" />
@@ -61,8 +61,8 @@
           <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="false" />
-              <option name="readonlyOnce" value="false" />
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="true" />
             </options>
           </option>
           <option name="pauseplay" value="true" />

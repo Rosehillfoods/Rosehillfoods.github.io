@@ -12,7 +12,7 @@
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="true">
+          <option name="title_enabled" value="false">
             <options>
               <option name="title_text" value="GMPs Module 2" />
             </options>
@@ -48,7 +48,7 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="free" />
+          <option name="flow" value="locked" />
           <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
@@ -61,8 +61,8 @@
           <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="false" />
-              <option name="readonlyOnce" value="false" />
+              <option name="readonly" value="true" />
+              <option name="readonlyOnce" value="true" />
             </options>
           </option>
           <option name="pauseplay" value="true" />
