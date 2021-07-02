@@ -55,6 +55,7 @@
       <title>Product Security</title>
       <item identifier="Product_Security_Module_1_SCO" isvisible="true" identifierref="__6eiRpRg4TsI_course_id_RES">
         <title>Product Security</title>
+        <adlcp:masteryscore>100</adlcp:masteryscore>
       </item>
     </organization>
   </organizations>
@@ -215,6 +216,7 @@
       <file href="html5/data/js/6hy7aqSikU7.js" />
       <file href="html5/data/js/6jZhRC5N1ge.js" />
       <file href="html5/data/js/6qsqHJJmraw.js" />
+      <file href="html5/data/js/6R0R8Lb0E4I.js" />
       <file href="html5/data/js/6SyIsa4hkgw.js" />
       <file href="html5/data/js/6Xz4pyoDh8m.js" />
       <file href="html5/data/js/data.js" />
