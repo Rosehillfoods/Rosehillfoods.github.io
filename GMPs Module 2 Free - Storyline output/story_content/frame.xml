@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns10111000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns10111100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
-    <layout name="npnxnanbsnfns10111000101" font="Lato" controllayout="npnxnanbsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000101" font="Lato" controllayout="pxabnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
-    <layout name="npxnabnsnfns10111000101" font="Lato" controllayout="npxnabnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
-    <layout name="npnxnanbnsnfns10111000101" font="Lato" controllayout="npnxnanbnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000100" font="Lato" controllayout="pxabnsnfns10111000100" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
-    <layout name="npnxabnsnfns10111000101" font="Lato" controllayout="npnxabnsnfns10111000101" colorscheme="npnxabnsnfns10111000101" string_table="npnxabnsnfns10111000101" />
+    <layout name="npnxnanbsnfns10111100101" font="Lato" controllayout="npnxnanbsnfns10111100101" colorscheme="npnxabnsnfns10111100101" string_table="npnxabnsnfns10111100101" />
+    <layout name="pxabnsnfns10111100101" font="Lato" controllayout="pxabnsnfns10111100101" colorscheme="npnxabnsnfns10111100101" string_table="npnxabnsnfns10111100101" />
+    <layout name="npxnabnsnfns10111100101" font="Lato" controllayout="npxnabnsnfns10111100101" colorscheme="npnxabnsnfns10111100101" string_table="npnxabnsnfns10111100101" />
+    <layout name="npnxnanbnsnfns10111100101" font="Lato" controllayout="npnxnanbnsnfns10111100101" colorscheme="npnxabnsnfns10111100101" string_table="npnxabnsnfns10111100101" />
+    <layout name="pxabnsnfns10111100100" font="Lato" controllayout="pxabnsnfns10111100100" colorscheme="npnxabnsnfns10111100101" string_table="npnxabnsnfns10111100101" />
+    <layout name="npnxabnsnfns10111100101" font="Lato" controllayout="npnxabnsnfns10111100101" colorscheme="npnxabnsnfns10111100101" string_table="npnxabnsnfns10111100101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -28,7 +28,7 @@
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="resources" value="true" group="linkright" />
               <listitem name="outline" value="true" group="linkright" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -91,7 +91,7 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10111000101">
+    <control_layout name="npnxnanbsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -104,7 +104,7 @@
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -114,7 +114,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000101">
+    <control_layout name="pxabnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -127,7 +127,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -137,7 +137,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10111000101">
+    <control_layout name="npxnabnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -150,7 +150,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -160,7 +160,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10111000101">
+    <control_layout name="npnxnanbnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -173,7 +173,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -183,7 +183,7 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000100">
+    <control_layout name="pxabnsnfns10111100100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -196,7 +196,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -206,7 +206,7 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxabnsnfns10111000101">
+    <control_layout name="npnxabnsnfns10111100101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
@@ -219,7 +219,7 @@
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
+      <control name="resources" enabled="true" />
       <control name="glossary" enabled="false" />
       <control name="transcript" enabled="false" />
       <control name="outline" enabled="true">
@@ -231,7 +231,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxabnsnfns10111000101">
+    <colorscheme name="npnxabnsnfns10111100101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1401,7 +1401,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxabnsnfns10111000101">
+    <string_table name="npnxabnsnfns10111100101">
       <string id="three_image_items">items</string>
       <string id="three_image_viewed">viewed</string>
       <string id="three_image_of">of</string>
@@ -1508,13 +1508,13 @@
         <slidelink slideid="_player.5jYiYJUXJE8" displaytext="GMPs Module 2" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5jYiYJUXJE8.5tUUsrSqVwt" displaytext="Start" expand="false" type="slide" />
-            <slidelink slideid="_player.5jYiYJUXJE8.6J9LUuKXIUf" displaytext="Washing Hands (1)" expand="false" type="slide" />
-            <slidelink slideid="_player.5jYiYJUXJE8.5wiRBZ20VRZ" displaytext="Washing Hands (2)" expand="false" type="slide" />
+            <slidelink slideid="_player.5jYiYJUXJE8.6J9LUuKXIUf" displaytext="Washing hands" expand="false" type="slide" />
+            <slidelink slideid="_player.5jYiYJUXJE8.5wiRBZ20VRZ" displaytext="When to wash your hands" expand="false" type="slide" />
             <slidelink slideid="_player.5jYiYJUXJE8.5lbHM6hrb7c" displaytext="Sneezing &amp;amp; coughing etiquette" expand="false" type="slide" />
             <slidelink slideid="_player.5jYiYJUXJE8.5vjfPhfeAKf" displaytext="Hygiene Don&amp;apos;ts" expand="false" type="slide" />
+            <slidelink slideid="_player.5jYiYJUXJE8.646RgBXkV2r" displaytext="Lockers" expand="false" type="slide" />
             <slidelink slideid="_player.5jYiYJUXJE8.69j8tAoh9FN" displaytext="Forbidden at all times" expand="false" type="slide" />
             <slidelink slideid="_player.5jYiYJUXJE8.5s0ZlioPx13" displaytext="Work hygiene" expand="false" type="slide" />
-            <slidelink slideid="_player.5jYiYJUXJE8.646RgBXkV2r" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.5YgKZklbB73" displaytext="Quiz Module 2" expand="true" type="slide">
@@ -1534,7 +1534,11 @@
       </links>
     </outline>
   </nav_data>
-  <resource_data description="" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/How_To_HandWash_Poster.pdf" image="story_content/5cePeuhf25F.png" title="Wash Hands Chart" />
+    </resources>
+  </resource_data>
   <transcript_data />
   <glossary_data />
 </bwFrame>
