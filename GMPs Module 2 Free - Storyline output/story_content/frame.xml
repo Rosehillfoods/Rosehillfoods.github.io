@@ -48,7 +48,7 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="restricted" />
+          <option name="flow" value="free" />
           <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
@@ -61,7 +61,7 @@
           <option name="volume" value="true" />
           <option name="seekbar" value="true">
             <options>
-              <option name="readonly" value="true" />
+              <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
@@ -1528,7 +1528,7 @@
             <slidelink slideid="_player.5YgKZklbB73.6JlTNN92DdV" displaytext="Question 6" expand="false" type="slide" />
             <slidelink slideid="_player.5YgKZklbB73.6b8tu2ASELp" displaytext="Question 7" expand="false" type="slide" />
             <slidelink slideid="_player.5YgKZklbB73.665wYwkZ6K7" displaytext="Question 8" expand="false" type="slide" />
-            <slidelink slideid="_player.5YgKZklbB73.5Zu3rEUK3qJ" displaytext="Qusetion 9" expand="false" type="slide" />
+            <slidelink slideid="_player.5YgKZklbB73.5Zu3rEUK3qJ" displaytext="Question 9" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
@@ -1536,7 +1536,7 @@
   </nav_data>
   <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
     <resources>
-      <resource url="story_content/external_files/How_To_HandWash_Poster.pdf" image="story_content/6qDkFtblkaG.png" title="Wash Hands Chart" />
+      <resource url="story_content/external_files/How_To_HandWash_Poster.pdf" image="story_content/5piUaCtzYPB.png" title="Wash Hands Chart" />
     </resources>
   </resource_data>
   <transcript_data />
